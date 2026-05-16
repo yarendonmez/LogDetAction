@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-bg-base text-text-primary;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-bg-base;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-bg-border rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent-muted;
+  }
+}
+
+@layer components {
+  .mono {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+  }
+
+  .card {
+    @apply bg-bg-surface border border-bg-border rounded-lg p-4;
+  }
+
+  .btn-primary {
+    @apply bg-accent-cyan text-bg-base font-semibold text-sm px-4 py-2 rounded hover:opacity-90 active:scale-95 transition-all disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply border border-bg-border text-text-secondary text-sm px-4 py-2 rounded hover:border-accent-muted hover:text-text-primary transition-all;
+  }
+
+  .input-base {
+    @apply bg-bg-elevated border border-bg-border text-text-primary rounded px-3 py-2 text-sm placeholder:text-text-dim focus:outline-none focus:border-accent-cyan transition-colors;
+  }
+}
