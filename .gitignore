@@ -1,0 +1,57 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment/config
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Large datasets and generated data
+*.jsonl
+*.parquet
+*.pkl
+
+# Large CSV files / generated outputs
+*.csv
+
+# Allow small sample log files if needed
+!v2.0/sample_logs.txt
+
+# Model adapters and checkpoints
+v2.0/qlora_test_model/
+v2.0/qlora_test_checkpoints/
+v2.0/qlora_classifier_test_model/
+v2.0/qlora_classifier_test_checkpoints/
+v2.0/qlora_classifier_balanced_model/
+v2.0/qlora_classifier_balanced_checkpoints/
+
+# Dataset split folders
+v2.0/split/
+v2.0/split_classifier/
+
+# Generated result folders
+v2.0/results/
+v2.0/uploads/
+v2.0/incoming_logs/
+
+# HuggingFace / cache
+.cache/
+huggingface/
+models--*/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

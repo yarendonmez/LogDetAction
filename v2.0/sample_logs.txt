@@ -1,0 +1,8 @@
+CMD: cat /proc/cpuinfo | grep name | wc -l
+Remote SSH version: SSH-2.0-libssh-0.6.3
+081109 204512 26 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.203.166:50010 is added to blk_-2299586501391716260 size 67108864
+login attempt [ubuntu/ubuntu1234] succeeded
+Failed password for root from 192.168.1.25 port 55221 ssh2
+GET /admin/login.php HTTP/1.1 404 Mozilla/5.0
+firewall denied src=192.168.1.40 dst=10.0.0.5 port=22 protocol=tcp
+User login successful for admin from web portal
