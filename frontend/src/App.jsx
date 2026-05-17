@@ -16,9 +16,11 @@ import LoadingOverlay from "./components/shared/LoadingOverlay";
 import ProgressPanel from "./components/progress/ProgressPanel";
 import HistoryPanel from "./components/history/HistoryPanel";
 import HistoryDetailView from "./components/history/HistoryDetailView";
+import AnalyticsDashboard from "./components/analytics/AnalyticsDashboard";
+import LiveMonitorPanel from "./components/live/LiveMonitorPanel";
 
 const INPUT_TABS = ["file", "text"];
-const NAV_TABS = ["analyze", "history"];
+const NAV_TABS = ["analyze", "history", "analytics", "live"];
 
 // ── Limitations banner ────────────────────────────────────────────────────────
 function LimitationsBanner() {
@@ -134,6 +136,17 @@ function HistoryTab() {
   return historyView === "detail" ? <HistoryDetailView /> : <HistoryPanel />;
 }
 
+// ── Tab label helper ──────────────────────────────────────────────────────────
+function tabLabel(tab, t) {
+  switch (tab) {
+    case "analyze":   return t("nav.tab_analyze");
+    case "history":   return t("nav.tab_history");
+    case "analytics": return t("nav.tab_analytics");
+    case "live":      return t("nav.tab_live");
+    default:          return tab;
+  }
+}
+
 // ── Root app ──────────────────────────────────────────────────────────────────
 export default function App() {
   const { t } = useTranslation();
@@ -158,23 +171,26 @@ export default function App() {
 
       <main className="flex-1 max-w-screen-xl mx-auto w-full px-4 sm:px-6 py-6">
         {/* Top-level navigation */}
-        <div className="flex gap-1 mb-6 border-b border-bg-border">
+        <div className="flex gap-1 mb-6 border-b border-bg-border overflow-x-auto">
           {NAV_TABS.map((tab) => (
             <button
               key={tab}
               onClick={() => setNavTab(tab)}
-              className={`px-5 py-2.5 text-sm font-medium transition-colors -mb-px border-b-2 ${
+              className={`px-5 py-2.5 text-sm font-medium transition-colors -mb-px border-b-2 whitespace-nowrap ${
                 navTab === tab
                   ? "border-accent-cyan text-accent-cyan"
                   : "border-transparent text-text-secondary hover:text-text-primary"
               }`}
             >
-              {tab === "history" ? t("nav.tab_history") : t("nav.tab_analyze")}
+              {tabLabel(tab, t)}
             </button>
           ))}
         </div>
 
-        {navTab === "analyze" ? <AnalyzeTab /> : <HistoryTab />}
+        {navTab === "analyze"   && <AnalyzeTab />}
+        {navTab === "history"   && <HistoryTab />}
+        {navTab === "analytics" && <AnalyticsDashboard />}
+        {navTab === "live"      && <LiveMonitorPanel />}
       </main>
     </div>
   );

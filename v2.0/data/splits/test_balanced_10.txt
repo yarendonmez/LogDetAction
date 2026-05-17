@@ -1,0 +1,10 @@
+Connection lost after 1 seconds
+081109 204450 457 INFO dfs.DataNode$PacketResponder: Received block blk_-1996904954055474930 of size 67108864 from /10.251.90.134
+081109 203544 154 INFO dfs.DataNode$DataXceiver: Receiving block blk_268467721592087811 src: /10.251.91.159:51624 dest: /10.251.91.159:50010
+081109 204709 603 INFO dfs.DataNode$BlockReceiver: Receiving empty packet for block blk_-6807617704355293530
+cowrie.session.params src_ip=20.163.253.64 username=
+081109 204025 319 INFO dfs.DataNode$PacketResponder: Received block blk_-393482409399829097 of size 67108864 from /10.251.214.225
+081109 204043 345 INFO dfs.DataNode$DataXceiver: Receiving block blk_8074191249935269840 src: /10.251.202.134:44738 dest: /10.251.202.134:50010
+081109 204757 443 INFO dfs.DataNode$PacketResponder: Received block blk_-423065043106849758 of size 67108864 from /10.251.203.4
+081109 204208 457 INFO dfs.DataNode$DataXceiver: Receiving block blk_3506985819488215456 src: /10.251.39.179:59676 dest: /10.251.39.179:50010
+SSH client hassh fingerprint: 51cba57125523ce4b9db67714a90bf6e

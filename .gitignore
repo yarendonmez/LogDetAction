@@ -44,6 +44,12 @@ v2.0/results/
 v2.0/uploads/
 v2.0/incoming_logs/
 
+# Backend runtime files
+backend/logdetaction.db
+backend/uploads/
+backend/results/
+backend/live/
+
 # HuggingFace / cache
 .cache/
 huggingface/

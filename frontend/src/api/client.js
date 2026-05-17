@@ -66,4 +66,31 @@ export async function checkHealth() {
   return res.data;
 }
 
+// ── Dashboard ─────────────────────────────────────────────────────────────────
+export async function fetchDashboardSummary() {
+  const res = await client.get("/dashboard/summary");
+  return res.data;
+}
+
+// ── Live monitor ──────────────────────────────────────────────────────────────
+export async function startLiveMonitor(analysisMode = "combined") {
+  const res = await client.post("/live/start", { analysis_mode: analysisMode });
+  return res.data;
+}
+
+export async function stopLiveMonitor() {
+  const res = await client.post("/live/stop");
+  return res.data;
+}
+
+export async function fetchLiveStatus() {
+  const res = await client.get("/live/status");
+  return res.data;
+}
+
+export async function fetchLiveEvents(limit = 50, label = "all") {
+  const res = await client.get("/live/events", { params: { limit, label } });
+  return res.data;
+}
+
 export default client;
