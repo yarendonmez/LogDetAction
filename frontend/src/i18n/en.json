@@ -204,10 +204,6 @@
     "demo_hint": "Start the demo generator in a separate terminal:",
     "demo_cmd": "python backend/tools/log_generator.py"
   },
-  "limitations": {
-    "title": "Known Limitations",
-    "text": "This system is trained primarily on Cowrie SSH honeypot and HDFS logs. Results for other log types such as web, firewall, authentication, and endpoint logs may have higher false positive rates. HDFS suspicious/anomaly detection requires block-level or session-level context and cannot be reliably determined from a single log line."
-  },
   "errors": {
     "EMPTY_FILE": "The uploaded file contains no log lines.",
     "EMPTY_TEXT": "The submitted text contains no log lines.",

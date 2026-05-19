@@ -204,10 +204,6 @@
     "demo_hint": "Demo üreticiyi ayrı bir terminalde başlatın:",
     "demo_cmd": "python backend/tools/log_generator.py"
   },
-  "limitations": {
-    "title": "Bilinen Kısıtlamalar",
-    "text": "Bu sistem ağırlıklı olarak Cowrie SSH honeypot ve HDFS logları üzerinde eğitilmiştir. Web, güvenlik duvarı, kimlik doğrulama ve endpoint gibi diğer log türlerinde daha yüksek yanlış pozitif oranları görülebilir. HDFS şüpheli/anomali tespiti blok veya oturum düzeyinde bağlam gerektirdiğinden tek bir log satırından güvenilir biçimde belirlenemez."
-  },
   "errors": {
     "EMPTY_FILE": "Yüklenen dosyada log satırı bulunamadı.",
     "EMPTY_TEXT": "Gönderilen metinde log satırı bulunamadı.",

@@ -28,15 +28,13 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-bg-surface border-b border-bg-border px-6 py-3 flex items-center justify-between">
-      <div className="flex items-center gap-3">
-        <ShieldIcon />
-        <div>
-          <h1 className="font-ui font-bold text-text-primary text-base tracking-tight">
-            {t("nav.title")}
-          </h1>
-          <p className="text-text-dim text-xs font-mono">{t("nav.subtitle")}</p>
-        </div>
+    <header className="bg-bg-surface border-b border-bg-border px-6 py-2 flex items-center justify-between">
+      <div className="flex items-center flex-1">
+        <img
+          src="/logdetaction_logo_wide.png"
+          alt="LogDetAction Logo"
+          className="h-20 w-auto max-w-lg"
+        />
       </div>
 
       <div className="flex items-center gap-4">
