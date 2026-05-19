@@ -58,6 +58,9 @@ models--*/
 # Logs
 *.log
 
+# Final report and documentation
+docs/
+
 # OS
 .DS_Store
 Thumbs.db
